@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="ssh://git@github.com/"/>
+  <remote name="gitlab" fetch="ssh://git@gitlab.com/"/>
+  <default revision="main" remote="github" sync-s="true"/>
+
+  <project name="Mittsujs/repo" path="repo"/>
+  <!-- Threejs Primer -->
+  <project name="Mittsujs/three-test" path="three-test"/>
+</manifest>
